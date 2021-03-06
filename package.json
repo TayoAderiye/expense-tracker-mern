@@ -1,0 +1,36 @@
+{
+  "name": "expense-tracker-mern",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TayoAderiye/expense-tracker-react.git"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "Tayo Aderiye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TayoAderiye/expense-tracker-react/issues"
+  },
+  "homepage": "https://github.com/TayoAderiye/expense-tracker-react#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
